@@ -4,7 +4,7 @@
 |Enrollment No.|Name|Github Id|
 |--------------|----|--------|
 |IIT2019201|Sainath Reddy|sainath998|
-|IIT2019202|Jyoti Verma|Adityaraj-222|
+|IIT2019202|Jyoti Verma|Jyo123-verma|
 |IIT2019203|Krishna Kaipa|D33PAK-6AJJA7A|
 
 *Group No-* 6
