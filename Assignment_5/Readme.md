@@ -5,7 +5,7 @@
 |--------------|----|--------|
 |IIT2019201|Sainath Reddy|sainath998|
 |IIT2019202|Jyoti Verma|Jyo123-verma|
-|IIT2019203|Krishna Kaipa|D33PAK-6AJJA7A|
+|IIT2019203|Krishna Kaipa|ra5put1n|
 
 *Group No-* 6
 
