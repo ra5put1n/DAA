@@ -9,6 +9,7 @@ int main()
     int arr[n];
 
     cout << endl;
+    
     cout << "Randomly generated array: ";
     for (int i = 0; i < n; i++)
     {
