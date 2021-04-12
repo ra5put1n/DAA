@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 		int n;
-		int arr[n];
 		cout<<"Enter number of elements to generate: ";
+		int arr[n];
 		cin>>n;
 		cout<<endl;
 		cout<<"Randomly generated array: "; 
