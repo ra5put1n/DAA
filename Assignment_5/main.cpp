@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-		int arr[100];
-		cout<<"Enter number of elements to generate: ";
 		int n;
+		int arr[n];
+		cout<<"Enter number of elements to generate: ";
 		cin>>n;
 		cout<<endl;
 		cout<<"Randomly generated array: "; 
