@@ -69,7 +69,7 @@ Demands: 12 43 207 230 124 144
 
 Supply: 144 207 12 43 230 124 
 
-Final cost: 4572
+Final cost: 4076
 ```
 
 Test Case-2
