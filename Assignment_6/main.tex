@@ -127,10 +127,10 @@ Function main()
         if(demand[i]==supply[j])
         
 		 cost+= demand[i]*arr[i][j]
+		 demand[i] = 0
+		 supply[j] = 03
 		 i++
 		 j++
-		 demand[i] = 0
-		 supply[j] = 0
 		 	
 		else if(demand[i]<supply[j])
 		
@@ -145,10 +145,7 @@ Function main()
 		 cost+= supply[i]*arr[i][j];
 		 supply[j]=0;
 		 j++;
-    
-    cost += demand[n-1] * arr[i-1][j-1]
-    demand[n-1] -= supply[n-1]
-    supply[n-1] = 0
+
 	
 	print cost
     return 0
@@ -361,10 +358,10 @@ int main()
 		if(demand[i]==supply[j])
 		{
 		 cost+= demand[i]*arr[i][j];
-		 i++;
-		  j++;
 		 demand[i] = 0;
 		 supply[j] = 0;
+		 i++;
+		 j++;
 		}
 		else if(demand[i]<supply[j])	
 		{	
@@ -381,9 +378,6 @@ int main()
 		 j++;
 		}
 	}
-	cost+=demand[n-1]*arr[i-1][j-1];
-	demand[n-1] -=supply[n-1];
-	supply[n-1] = 0;
 	cout<<"Final cost: "<<cost<<endl;
 	return 0;
 }
