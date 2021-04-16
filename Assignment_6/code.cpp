@@ -45,10 +45,10 @@ int main()
 			if(demand[i]==supply[j])
 			{
 				cost+= demand[i]*arr[i][j];
-				i++;
-				j++;
 				demand[i] = 0;
 				supply[j] = 0;
+				i++;
+				j++;
 			}
 			else if(demand[i]<supply[j])	
 			{	
@@ -67,9 +67,7 @@ int main()
 			}
 		}
 
-		cost+=demand[n-1]*arr[i-1][j-1];
-		demand[n-1] -=supply[n-1];
-		supply[n-1] = 0;
+
 
 		cout<<"Final cost: "<<cost<<endl;
 		return 0;
